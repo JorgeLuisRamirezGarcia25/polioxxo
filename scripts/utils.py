@@ -135,6 +135,43 @@ def load_geodataframe(filepath):
         logger.error(f"Error cargando {filepath}: {e}")
         return None
 
+def create_electoral_districts():
+    """
+    Crea datos sintéticos de distritos electorales de CDMX
+    """
+    logger = logging.getLogger('polioxxo.utils')
+    
+    # 24 Distritos electorales locales de CDMX con datos sintéticos
+    districts_data = {
+        'DISTRITO_01': {'alcaldia': 'GUSTAVO A MADERO', 'diputado_ganador': 'MORENA', 'votos_distrito': 95000, 'participacion': 58.2},
+        'DISTRITO_02': {'alcaldia': 'GUSTAVO A MADERO', 'diputado_ganador': 'MORENA', 'votos_distrito': 87000, 'participacion': 55.8},
+        'DISTRITO_03': {'alcaldia': 'AZCAPOTZALCO', 'diputado_ganador': 'MORENA', 'votos_distrito': 89000, 'participacion': 61.4},
+        'DISTRITO_04': {'alcaldia': 'MIGUEL HIDALGO', 'diputado_ganador': 'PAN', 'votos_distrito': 78000, 'participacion': 67.2},
+        'DISTRITO_05': {'alcaldia': 'CUAUHTEMOC', 'diputado_ganador': 'MORENA', 'votos_distrito': 82000, 'participacion': 63.8},
+        'DISTRITO_06': {'alcaldia': 'VENUSTIANO CARRANZA', 'diputado_ganador': 'MORENA', 'votos_distrito': 91000, 'participacion': 59.7},
+        'DISTRITO_07': {'alcaldia': 'IZTACALCO', 'diputado_ganador': 'MORENA', 'votos_distrito': 85000, 'participacion': 62.1},
+        'DISTRITO_08': {'alcaldia': 'BENITO JUAREZ', 'diputado_ganador': 'PAN', 'votos_distrito': 93000, 'participacion': 71.5},
+        'DISTRITO_09': {'alcaldia': 'IZTAPALAPA', 'diputado_ganador': 'MORENA', 'votos_distrito': 105000, 'participacion': 54.3},
+        'DISTRITO_10': {'alcaldia': 'IZTAPALAPA', 'diputado_ganador': 'MORENA', 'votos_distrito': 98000, 'participacion': 52.8},
+        'DISTRITO_11': {'alcaldia': 'IZTAPALAPA', 'diputado_ganador': 'MORENA', 'votos_distrito': 102000, 'participacion': 53.6},
+        'DISTRITO_12': {'alcaldia': 'IZTAPALAPA', 'diputado_ganador': 'MORENA', 'votos_distrito': 96000, 'participacion': 51.9},
+        'DISTRITO_13': {'alcaldia': 'XOCHIMILCO', 'diputado_ganador': 'MORENA', 'votos_distrito': 79000, 'participacion': 56.4},
+        'DISTRITO_14': {'alcaldia': 'TLAHUAC', 'diputado_ganador': 'MORENA', 'votos_distrito': 73000, 'participacion': 58.7},
+        'DISTRITO_15': {'alcaldia': 'MILPA ALTA', 'diputado_ganador': 'MORENA', 'votos_distrito': 48000, 'participacion': 61.2},
+        'DISTRITO_16': {'alcaldia': 'TLALPAN', 'diputado_ganador': 'MORENA', 'votos_distrito': 92000, 'participacion': 60.3},
+        'DISTRITO_17': {'alcaldia': 'COYOACAN', 'diputado_ganador': 'MORENA', 'votos_distrito': 88000, 'participacion': 65.8},
+        'DISTRITO_18': {'alcaldia': 'COYOACAN', 'diputado_ganador': 'MORENA', 'votos_distrito': 91000, 'participacion': 64.2},
+        'DISTRITO_19': {'alcaldia': 'ALVARO OBREGON', 'diputado_ganador': 'MORENA', 'votos_distrito': 94000, 'participacion': 59.1},
+        'DISTRITO_20': {'alcaldia': 'ALVARO OBREGON', 'diputado_ganador': 'MORENA', 'votos_distrito': 87000, 'participacion': 57.8},
+        'DISTRITO_21': {'alcaldia': 'MAGDALENA CONTRERAS', 'diputado_ganador': 'MORENA', 'votos_distrito': 71000, 'participacion': 60.9},
+        'DISTRITO_22': {'alcaldia': 'CUAJIMALPA', 'diputado_ganador': 'PAN', 'votos_distrito': 65000, 'participacion': 68.4},
+        'DISTRITO_23': {'alcaldia': 'GUSTAVO A MADERO', 'diputado_ganador': 'MORENA', 'votos_distrito': 89000, 'participacion': 56.7},
+        'DISTRITO_24': {'alcaldia': 'AZCAPOTZALCO', 'diputado_ganador': 'MORENA', 'votos_distrito': 81000, 'participacion': 59.3},
+    }
+    
+    logger.info(f"Creados {len(districts_data)} distritos electorales")
+    return districts_data
+
 def create_summary_report(data_dict, output_path):
     """
     Crea un reporte resumen del proyecto
@@ -145,7 +182,7 @@ def create_summary_report(data_dict, output_path):
         report_lines = [
             "=" * 60,
             "REPORTE RESUMEN - POLIOXXO",
-            "Análisis de Oxxos en CDMX por Alcaldías",
+            "Análisis de Oxxos en CDMX por Alcaldías y Distritos Electorales",
             "=" * 60,
             ""
         ]
