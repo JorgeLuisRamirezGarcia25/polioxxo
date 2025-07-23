@@ -1,0 +1,581 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nomgeo": "Azcapotzalco",
+        "alcaldia": "AZCAPOTZALCO",
+        "cvegeo": "09001",
+        "source": "approximate"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.21100000000001,
+              19.464000000000002
+            ],
+            [
+              -99.161,
+              19.464000000000002
+            ],
+            [
+              -99.161,
+              19.514
+            ],
+            [
+              -99.21100000000001,
+              19.514
+            ],
+            [
+              -99.21100000000001,
+              19.464000000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomgeo": "Coyoacán",
+        "alcaldia": "COYOACÁN",
+        "cvegeo": "09002",
+        "source": "approximate"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.18700000000001,
+              19.318
+            ],
+            [
+              -99.137,
+              19.318
+            ],
+            [
+              -99.137,
+              19.368
+            ],
+            [
+              -99.18700000000001,
+              19.368
+            ],
+            [
+              -99.18700000000001,
+              19.318
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomgeo": "Cuajimalpa de Morelos",
+        "alcaldia": "CUAJIMALPA DE MORELOS",
+        "cvegeo": "09003",
+        "source": "approximate"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.316,
+              19.34
+            ],
+            [
+              -99.26599999999999,
+              19.34
+            ],
+            [
+              -99.26599999999999,
+              19.389999999999997
+            ],
+            [
+              -99.316,
+              19.389999999999997
+            ],
+            [
+              -99.316,
+              19.34
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomgeo": "Gustavo A. Madero",
+        "alcaldia": "GUSTAVO A. MADERO",
+        "cvegeo": "09004",
+        "source": "approximate"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.144,
+              19.461000000000002
+            ],
+            [
+              -99.094,
+              19.461000000000002
+            ],
+            [
+              -99.094,
+              19.511
+            ],
+            [
+              -99.144,
+              19.511
+            ],
+            [
+              -99.144,
+              19.461000000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomgeo": "Iztacalco",
+        "alcaldia": "IZTACALCO",
+        "cvegeo": "09005",
+        "source": "approximate"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.138,
+              19.359
+            ],
+            [
+              -99.088,
+              19.359
+            ],
+            [
+              -99.088,
+              19.409
+            ],
+            [
+              -99.138,
+              19.409
+            ],
+            [
+              -99.138,
+              19.359
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomgeo": "Iztapalapa",
+        "alcaldia": "IZTAPALAPA",
+        "cvegeo": "09006",
+        "source": "approximate"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.08000000000001,
+              19.332
+            ],
+            [
+              -99.03,
+              19.332
+            ],
+            [
+              -99.03,
+              19.381999999999998
+            ],
+            [
+              -99.08000000000001,
+              19.381999999999998
+            ],
+            [
+              -99.08000000000001,
+              19.332
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomgeo": "La Magdalena Contreras",
+        "alcaldia": "LA MAGDALENA CONTRERAS",
+        "cvegeo": "09007",
+        "source": "approximate"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.263,
+              19.276
+            ],
+            [
+              -99.213,
+              19.276
+            ],
+            [
+              -99.213,
+              19.325999999999997
+            ],
+            [
+              -99.263,
+              19.325999999999997
+            ],
+            [
+              -99.263,
+              19.276
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomgeo": "Milpa Alta",
+        "alcaldia": "MILPA ALTA",
+        "cvegeo": "09008",
+        "source": "approximate"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.049,
+              19.167
+            ],
+            [
+              -98.999,
+              19.167
+            ],
+            [
+              -98.999,
+              19.217
+            ],
+            [
+              -99.049,
+              19.217
+            ],
+            [
+              -99.049,
+              19.167
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomgeo": "Álvaro Obregón",
+        "alcaldia": "ÁLVARO OBREGÓN",
+        "cvegeo": "09009",
+        "source": "approximate"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.23,
+              19.345000000000002
+            ],
+            [
+              -99.17999999999999,
+              19.345000000000002
+            ],
+            [
+              -99.17999999999999,
+              19.395
+            ],
+            [
+              -99.23,
+              19.395
+            ],
+            [
+              -99.23,
+              19.345000000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomgeo": "Tláhuac",
+        "alcaldia": "TLÁHUAC",
+        "cvegeo": "09010",
+        "source": "approximate"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.03800000000001,
+              19.262
+            ],
+            [
+              -98.988,
+              19.262
+            ],
+            [
+              -98.988,
+              19.311999999999998
+            ],
+            [
+              -99.03800000000001,
+              19.311999999999998
+            ],
+            [
+              -99.03800000000001,
+              19.262
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomgeo": "Tlalpan",
+        "alcaldia": "TLALPAN",
+        "cvegeo": "09011",
+        "source": "approximate"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.18900000000001,
+              19.265
+            ],
+            [
+              -99.139,
+              19.265
+            ],
+            [
+              -99.139,
+              19.314999999999998
+            ],
+            [
+              -99.18900000000001,
+              19.314999999999998
+            ],
+            [
+              -99.18900000000001,
+              19.265
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomgeo": "Xochimilco",
+        "alcaldia": "XOCHIMILCO",
+        "cvegeo": "09012",
+        "source": "approximate"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.128,
+              19.238000000000003
+            ],
+            [
+              -99.07799999999999,
+              19.238000000000003
+            ],
+            [
+              -99.07799999999999,
+              19.288
+            ],
+            [
+              -99.128,
+              19.288
+            ],
+            [
+              -99.128,
+              19.238000000000003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomgeo": "Benito Juárez",
+        "alcaldia": "BENITO JUÁREZ",
+        "cvegeo": "09013",
+        "source": "approximate"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.18400000000001,
+              19.349
+            ],
+            [
+              -99.134,
+              19.349
+            ],
+            [
+              -99.134,
+              19.398999999999997
+            ],
+            [
+              -99.18400000000001,
+              19.398999999999997
+            ],
+            [
+              -99.18400000000001,
+              19.349
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomgeo": "Cuauhtémoc",
+        "alcaldia": "CUAUHTÉMOC",
+        "cvegeo": "09014",
+        "source": "approximate"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.16900000000001,
+              19.406000000000002
+            ],
+            [
+              -99.119,
+              19.406000000000002
+            ],
+            [
+              -99.119,
+              19.456
+            ],
+            [
+              -99.16900000000001,
+              19.456
+            ],
+            [
+              -99.16900000000001,
+              19.406000000000002
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomgeo": "Miguel Hidalgo",
+        "alcaldia": "MIGUEL HIDALGO",
+        "cvegeo": "09015",
+        "source": "approximate"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.22800000000001,
+              19.401
+            ],
+            [
+              -99.178,
+              19.401
+            ],
+            [
+              -99.178,
+              19.450999999999997
+            ],
+            [
+              -99.22800000000001,
+              19.450999999999997
+            ],
+            [
+              -99.22800000000001,
+              19.401
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nomgeo": "Venustiano Carranza",
+        "alcaldia": "VENUSTIANO CARRANZA",
+        "cvegeo": "09016",
+        "source": "approximate"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.12700000000001,
+              19.411
+            ],
+            [
+              -99.077,
+              19.411
+            ],
+            [
+              -99.077,
+              19.461
+            ],
+            [
+              -99.12700000000001,
+              19.461
+            ],
+            [
+              -99.12700000000001,
+              19.411
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

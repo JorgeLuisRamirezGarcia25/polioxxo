@@ -1,0 +1,35 @@
+
+=== REPORTE DE PROCESAMIENTO DE DATOS ===
+
+DATOS GENERALES:
+- Total de alcaldías: 16
+- Total de Oxxos: 2539
+- Oxxos asignados a alcaldías: 2539
+- Oxxos sin asignar: 0
+
+DISTRIBUCIÓN POR PARTIDO:
+partido_ganador
+MORENA    13
+PAN        3
+
+ESTADÍSTICAS DE OXXOS POR ALCALDÍA:
+- Media: 158.7
+- Mediana: 126.5
+- Mínimo: 3
+- Máximo: 645
+
+ALCALDÍAS CON MÁS OXXOS:
+         alcaldia  num_oxxos partido_ganador
+GUSTAVO A. MADERO        645          MORENA
+       CUAUHTÉMOC        302          MORENA
+    BENITO JUÁREZ        232             PAN
+     AZCAPOTZALCO        214          MORENA
+       XOCHIMILCO        161          MORENA
+
+ALCALDÍAS CON MENOS OXXOS:
+              alcaldia  num_oxxos partido_ganador
+            MILPA ALTA          3          MORENA
+               TLÁHUAC         16          MORENA
+LA MAGDALENA CONTRERAS         52          MORENA
+        ÁLVARO OBREGÓN         75          MORENA
+ CUAJIMALPA DE MORELOS         87             PAN
