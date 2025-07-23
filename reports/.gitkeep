@@ -1,0 +1,11 @@
+# Directorio de reportes y análisis
+
+Este directorio contiene:
+- Reportes de análisis estadístico
+- Gráficos y visualizaciones
+- Archivos de texto con resultados
+
+Los archivos se generan automáticamente al ejecutar:
+```bash
+python scripts/main.py --analyze-only
+```
